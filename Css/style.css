@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "Poppins", sans-serif;
+    color: #2f5b8b;
+    overflow-x: hidden;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+
+.btn-light{
+    color: #2f5b8b;
+    font-weight: 500;
+
+}
+.nav-link{
+    color:#2f5b8b;
+
+}
+.btn-light:hover{
+    background-color: #0779ff;
+    color: #fff;
+    
+}
+i{
+    color: gainsboro;
+}
+.btn-bluegrad {
+    background-color:#2f5b8b ;
+    border: none;
+    color: #fff;
+    white-space: nowrap;
+}
+.card-body i{
+    color: #0779ff;
+}
+.z-index-1{
+    z-index: 1;
+}
+.aircontainer{
+     height: 74px;
+     width: 100%;
+}
+.bg-grey{
+    background-color: #f2f6ff;
+    border-radius: 100px;
+}
+.flightlogo{
+    top: 0px;
+}
+.btn-outline-bluegrad {
+    border: 1px solid #2f5b8b;
+    color:#2f5b8b ;
+    white-space: nowrap;
+}
+.btn-outline-bluegrad:hover{
+    border: 1px solid #2f5b8b;
+    
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.col-md-6 h4{
+    font-size: 2.13rem;
+    font-weight: 600;
+    line-height: 3.40rem;
+}
+.circle{
+    height: 11px;
+    width: 11px;
+    border-radius:99%;
+    background-color: #0779ff;
+}
+.googleplay{
+    width: 15%;
+}
+.banner-bottom-dots{
+    position: absolute;
+    top: 13%;
+    left: 15%;
+}
+.dhruvi{
+    background-color: rgba(253, 254, 254, 0.685);
+}
+.dhruvi img{
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+}
+.dhruvi small{
+    font-size: 0.72rem;
+    
+}
+.dhruvi p{
+    font-size: 13px;
+
+}
+.ravar{
+    position:absolute;
+    top: 25%;
+    right: 1%;
+}
+.kaur{
+    position: absolute;
+    top:58% ;
+    left: -4%;
+}
+.patel{
+    position:absolute;
+    top: 76.5%;
+    right: -2.5%;
+
+}
+input,select{
+    margin-bottom: 14px;
+}
+.bg-blue{
+    background-color: #2f5b8b;
+    color: #b2c2d4;
+}
+footer{
+    background-color: #001733;
+    color:white;
+}
+.card{
+    border: none;
+}
+.cru img{
+    height: 55px;
+   width: 55px;
+   border-radius: 50%;
+}
+.fa-check{
+    color: #03d1b1;
+    padding-right: 6px;
+}
+
+.lil{
+    font-size: 14px;
+}
+.ps{
+    color: #808080;
+    font-size: 12px;
+}
+
+.smallround{
+ height: 20px;
+ width: 20px;
+ border-radius: 50%;
+}
+@media (max-width:768px){
+    .stabroad,#t-center{
+        text-align: center;
+    }
+    .stabroad img{
+        display: none;
+    }
+    .search{
+        margin: auto;
+    }
+    .btn{
+        margin-top: 1.5rem;
+    }
+    .card{
+        width: 26rem !important;
+    }
+    .ravar{
+        top:3rem;
+        right: -0.75rem;
+    }
+    
+    
+}
